@@ -1,0 +1,53 @@
+# Ophira Resort Residences, Dutamas
+
+> Official project information for Ophira Resort Residences at https://ophira-dutamas.com/
+
+Ophira Resort Residences is a freehold, GreenRE-certified serviced apartment development in Dutamas, Kuala Lumpur. It is developed by Chin Hin Property Development.
+
+## Key facts
+
+- Location: Dutamas, Kuala Lumpur, Malaysia
+- Tenure: Freehold on commercial-titled land
+- Development: Two residential towers with 1,546 homes
+- Site area: 4.74 acres
+- Home sizes: 525 to 1,020 sq. ft.
+- Configurations: 1+1, 2+1, 3 and 4 bedrooms
+- Dual-key: Available in selected layouts
+- Facilities: 39 facilities across Level 1, Level 10 and the sky garden
+- Rail: Nearest KTM commuter rail connection approximately 400 m away
+- Target completion: Q4 2031, estimated and subject to approvals and the SPA
+- Estimated maintenance: Approximately RM0.36 per sq. ft. per month including sinking fund; actual charges depend on allocated share units
+
+## Layouts
+
+- Type A: 525 sq. ft., 1+1 bedroom
+- Type B: 722 sq. ft., 2+1 bedrooms
+- Type C: 840 sq. ft., 3 bedrooms
+- Type C1: 902 sq. ft., 3 bedrooms, dual-key enabled
+- Type D: 1,006 sq. ft., 4 bedrooms
+- Type D1: 1,020 sq. ft., 4 bedrooms, dual-key enabled
+
+## Facilities
+
+Highlights include a 50 m lap pool, 4,000 sq. ft. function hall, 3,300 sq. ft. co-working space, 1,350 sq. ft. gymnasium, two pickleball courts, family facilities and a 750 sq. ft. social lounge.
+
+## Contact
+
+- Enquiry page: https://ophira-dutamas.com/#enquire
+
+## Machine-readable discovery
+
+- Canonical homepage: https://ophira-dutamas.com/
+- XML sitemap: https://ophira-dutamas.com/sitemap.xml
+- Crawler policy: https://ophira-dutamas.com/robots.txt
+- Structured data: JSON-LD is embedded in the canonical homepage and describes the website, project, developer, breadcrumbs and visible buyer questions.
+
+## Important qualification
+
+All project information, dimensions, distances, plans, specifications, facilities, completion dates and visuals are indicative and subject to change. Purchasers should rely on the final Sale and Purchase Agreement for binding information.
+
+## Primary pages
+
+- [Home and project details](https://ophira-dutamas.com/)
+- [Privacy notice](https://ophira-dutamas.com/privacy.html)
+- [Website terms](https://ophira-dutamas.com/terms.html)

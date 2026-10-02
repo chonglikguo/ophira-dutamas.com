@@ -1,0 +1,13 @@
+# Google Search crawler
+User-agent: Googlebot
+Allow: /
+
+# Google AI model crawler; this does not affect Google Search ranking
+User-agent: Google-Extended
+Allow: /
+
+# All other search and answer-engine crawlers
+User-agent: *
+Allow: /
+
+Sitemap: https://ophira-dutamas.com/sitemap.xml
