@@ -1,2 +1,2 @@
 // Public form endpoint only. Keep private tokens in Google Apps Script Properties.
-window.OPHIRA_FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbx6G0loARK4moz-RolUL3hQr10A743gh0ZqOWzDWnKT9Wk2xSAB7D5wso9tNFtC935U/exec';
+window.OPHIRA_FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzNO1j3wGHy7G8upJIf8j5MeJ91g7RdwnXEpdx8sYH3o4TAfFVirTS1IiKAKrwX3nfL/exec';
