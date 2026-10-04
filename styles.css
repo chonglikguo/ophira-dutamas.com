@@ -37,7 +37,7 @@ body {
   overflow-x: hidden;
   background: var(--ink);
   color: var(--bone);
-  font-family: "Ophira Sans", Arial, sans-serif;
+  font-family: "Ophira Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
@@ -111,23 +111,47 @@ p { text-wrap: pretty; }
 .brand {
   display: inline-flex;
   width: max-content;
-  flex-direction: column;
+  align-items: center;
+  gap: 0.78rem;
+  color: var(--bone);
   line-height: 1;
+}
+
+.brand-mark {
+  width: 2.45rem;
+  height: 2.45rem;
+  flex: 0 0 auto;
+  overflow: visible;
+  filter: drop-shadow(0 0.35rem 0.7rem rgba(232, 185, 76, 0.08));
+  transform: translateZ(0);
+  transition: transform 540ms var(--ease);
+}
+
+.brand-mark-ring { fill: currentColor; }
+.brand-mark-gate { fill: var(--accent); }
+
+.brand[href]:hover .brand-mark,
+.brand[href]:focus-visible .brand-mark { transform: translateY(-1px) scale(1.035); }
+
+.brand-lockup {
+  display: inline-flex;
+  min-width: 0;
+  flex-direction: column;
 }
 
 .brand-name {
   color: var(--bone);
-  font-size: 1.45rem;
-  font-weight: 600;
-  letter-spacing: 0.28em;
+  font-size: 1.28rem;
+  font-weight: 630;
+  letter-spacing: 0.255em;
 }
 
 .brand-meta {
-  margin-top: 0.5rem;
+  margin-top: 0.38rem;
   color: var(--steel);
-  font-size: 0.61rem;
+  font-size: 0.57rem;
   font-weight: 650;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.145em;
   text-transform: uppercase;
 }
 
@@ -582,7 +606,7 @@ p { text-wrap: pretty; }
 
 .utility-page { min-height: 100dvh; padding: calc(var(--header) + 5rem) 5vw 7rem; background: var(--bone); color: var(--ink); }
 .utility-shell { width: min(100%, 54rem); margin: 0 auto; }
-.utility-page .brand { margin-bottom: 5rem; }
+.utility-page .brand { margin-bottom: 5rem; color: var(--ink); }
 .utility-page .brand-name { color: var(--ink); }
 .utility-page .brand-meta { color: #676b67; }
 .utility-page h1 { margin-bottom: 1.5rem; font-size: clamp(3rem, 8vw, 6.8rem); font-weight: 730; letter-spacing: -.065em; line-height: .92; text-transform: uppercase; }
@@ -681,8 +705,10 @@ p { text-wrap: pretty; }
 @media (max-width: 640px) {
   body { padding-bottom: 3.8rem; }
   .site-header { padding: 0 1rem; }
+  .brand { gap: .62rem; }
+  .brand-mark { width: 2rem; height: 2rem; }
   .brand-name { font-size: 1.05rem; }
-  .brand-meta { font-size: .5rem; }
+  .brand-meta { margin-top: .3rem; font-size: .48rem; letter-spacing: .12em; }
   .hero-visual { min-height: 48dvh; }
   .hero-word { left: 1rem; bottom: 1.4rem; font-size: 24vw; }
   .hero-panel { min-height: auto; padding: 3.2rem 1.25rem 3.5rem; }

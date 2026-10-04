@@ -10,4 +10,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://ophira-dutamas.com/sitemap.xml
+Sitemap: https://www.ophira-dutamas.com/sitemap.xml
