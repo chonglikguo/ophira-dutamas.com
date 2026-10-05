@@ -68,6 +68,42 @@
     observedSections.forEach((section) => sectionObserver.observe(section));
   }
 
+  const stickyCtas = [...document.querySelectorAll('[data-sticky-cta]')];
+  const stickyCtaBlockers = [document.querySelector('.hero'), document.querySelector('.site-footer')].filter(Boolean);
+  const setStickyCtasHidden = (hidden) => {
+    stickyCtas.forEach((cta) => {
+      cta.classList.toggle('is-hidden', hidden);
+      if (hidden) {
+        cta.setAttribute('aria-hidden', 'true');
+        cta.setAttribute('tabindex', '-1');
+      } else {
+        cta.removeAttribute('aria-hidden');
+        cta.removeAttribute('tabindex');
+      }
+    });
+  };
+
+  if (stickyCtas.length && stickyCtaBlockers.length) {
+    let stickyCtaFrame = 0;
+    const updateStickyCtas = () => {
+      stickyCtaFrame = 0;
+      const blocked = stickyCtaBlockers.some((section) => {
+        const rect = section.getBoundingClientRect();
+        return rect.bottom > 0 && rect.top < window.innerHeight;
+      });
+      setStickyCtasHidden(blocked);
+    };
+    const scheduleStickyCtaUpdate = () => {
+      if (stickyCtaFrame) return;
+      stickyCtaFrame = window.requestAnimationFrame(updateStickyCtas);
+    };
+    updateStickyCtas();
+    window.addEventListener('scroll', scheduleStickyCtaUpdate, { passive: true });
+    window.addEventListener('resize', scheduleStickyCtaUpdate);
+  } else {
+    setStickyCtasHidden(false);
+  }
+
   const plans = {
     a: {
       title: 'Type A · 525 sq. ft.',
